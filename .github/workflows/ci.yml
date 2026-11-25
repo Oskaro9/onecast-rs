@@ -10,7 +10,7 @@ on:
 jobs:
   build-and-test:
     name: Build & Test (Rust Core + Swift macOS App)
-    runs-on: macos-14
+    runs-on: macos-latest
 
     steps:
       - name: Checkout repository
